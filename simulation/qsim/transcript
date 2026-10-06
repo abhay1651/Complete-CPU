@@ -1,0 +1,49 @@
+# do lab6.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:30:12 on Mar 28,2026
+# vlog -work work lab6.vo 
+# -- Compiling module CPU_TEST_Sim
+# 
+# Top level modules:
+# 	CPU_TEST_Sim
+# End time: 23:30:13 on Mar 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:30:13 on Mar 28,2026
+# vlog -work work cpu_test_sim.vwf.vt 
+# -- Compiling module CPU_TEST_Sim_vlg_vec_tst
+# 
+# Top level modules:
+# 	CPU_TEST_Sim_vlg_vec_tst
+# End time: 23:30:13 on Mar 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.CPU_TEST_Sim_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 23:30:13 on Mar 28,2026
+# Loading work.CPU_TEST_Sim_vlg_vec_tst
+# Loading work.CPU_TEST_Sim
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 10.4d Compiler 2015.12 Dec 30 2015
+# Loading instances from lab6_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from lab6_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst File: cpu_test_sim.vwf.vt
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:2728 ps, d:2895 ps, 222 ps );
+#    Time: 2895 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_processor|dat|Data_Mem0|DATAMEM_rtl_0|auto_generated|ram_block1a0 /datain_a_register
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:2728 ps, d:2905 ps, 222 ps );
+#    Time: 2905 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_processor|dat|Data_Mem0|DATAMEM_rtl_0|auto_generated|ram_block1a0 /datain_a_register
+# ** Note: $finish    : cpu_test_sim.vwf.vt(73)
+#    Time: 1 us  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst
+# End time: 23:30:13 on Mar 28,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1

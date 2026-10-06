@@ -1,0 +1,11 @@
+# Quartus generated files/folders
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+
+# Backup files
+*.bak
+
+# Temporary files
+*.tmp
