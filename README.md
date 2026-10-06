@@ -100,8 +100,8 @@ Waveform files are included for testing the complete CPU and the reset circuitry
 
 **COE608 – Computer Organization and Architectures**
 
-**Project:** Lab 6 – The Complete CPU (Overall Project)
+**Project:** Lab 6 – Complete CPU (Overall Project)
 
 ## Author
 
-**Akarshan R Singh**
+**Abhay Gupta**
